@@ -1,0 +1,41 @@
+.header_search_box form input {
+    font-size: 14px;
+    /*border: 0;*/
+    background: inherit;
+    width: 81%;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 43px 0 13px;
+}
+
+.header_search_box form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border: 0;
+    background: inherit;
+    font-size: 17px;
+    padding: 0;
+    width: 36px;
+    text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
